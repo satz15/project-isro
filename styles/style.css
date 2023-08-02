@@ -141,7 +141,7 @@ body{
 
 }
 
-.flash-btn-conatiner{
+.flash-btn-container{
     padding-top: 1.2rem;
     display: flex;
     justify-content: center;
@@ -158,3 +158,59 @@ body{
     position: relative;
     bottom: 4rem;
 }
+
+.name-two{
+    position: relative;
+}
+
+#About-list{
+   position: absolute;
+    z-index: 1;
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 6px;
+    display:none;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 0.5rem;
+}
+
+.list ul li{
+    list-style:none;
+}
+
+.sub-3:hover #About-list{
+    display:block;
+} 
+
+#Activities-list{
+    position: absolute;
+     z-index: 1;
+     margin-top: 1rem;
+     background-color: white;
+     color: black;
+     padding: 8px;
+     border-radius: 6px;
+     display:none;
+ }
+ 
+ .list ul{
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+     gap: 0.5rem;
+ }
+ 
+ #Activities-list ul li{
+     list-style:none;
+ }
+ 
+ .sub-3:hover #Activities-list{
+     display:block;
+ } 
